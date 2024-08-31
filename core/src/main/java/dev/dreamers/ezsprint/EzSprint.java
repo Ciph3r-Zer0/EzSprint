@@ -1,5 +1,6 @@
 package dev.dreamers.ezsprint;
 
+import dev.dreamers.ezsprint.storage.EzSprintConfiguration;
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.models.addon.annotation.AddonMain;
 import dev.dreamers.ezsprint.listener.GameTickListener;
