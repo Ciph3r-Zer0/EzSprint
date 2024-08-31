@@ -1,4 +1,4 @@
-rootProject.name = "labymod4-addon-template"
+rootProject.name = "EzSprint"
 
 pluginManagement {
     val labyGradlePluginVersion = "0.4.6"

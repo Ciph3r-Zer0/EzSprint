@@ -4,16 +4,16 @@ plugins {
     id("net.labymod.gradle.addon")
 }
 
-group = "org.example"
-version = System.getenv().getOrDefault("VERSION", "1.0.0")
+group = "dev.dreamers.ezsprint"
+version = "1.0.0"
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "$group" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
+        namespace = "ezsprint"
+        displayName = rootProject.name
+        author = "Rafi"
+        description = "Simple autosprint addon"
         minecraftVersion = "*"
         version = getVersion().toString()
     }
