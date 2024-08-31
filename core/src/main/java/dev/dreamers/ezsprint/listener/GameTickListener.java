@@ -17,7 +17,6 @@ public class GameTickListener {
   public void onGameTick(GameTickEvent event) {
     if (event.phase() != Phase.PRE) return;
     if (!addon.labyAPI().minecraft().isIngame()) return;
-//    if (!addon.labyAPI().minecraft().options().sprintInput().isActuallyDown()) return;
 
     addon.labyAPI().minecraft().options().sprintInput().press();
   }

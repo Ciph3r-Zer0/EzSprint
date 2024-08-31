@@ -2,7 +2,7 @@
   "ezsprint": {
     "settings": {
       "enabled": {
-        "name": "Enabled"
+        "name": "Enable Auto Sprint"
       }
     }
   }
